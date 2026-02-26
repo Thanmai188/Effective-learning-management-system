@@ -1,0 +1,29 @@
+.courses {
+  padding: 50px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.courses h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.courses-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.course-card {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.course-card button {
+  margin-top: 20px;
+  width: 100%;
+}
